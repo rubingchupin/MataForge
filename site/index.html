@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MataForge</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="siteName">MataForge</h1>
+    <input id="search" type="search" placeholder="搜索项目..." />
+    <select id="sortSel" title="排序方式">
+      <option value="default">默认排序</option>
+      <option value="name">按名称</option>
+      <option value="version">按版本</option>
+      <option value="updated">按更新时间</option>
+    </select>
+    <button type="button" id="statsBtn">数据统计</button>
+    <span id="count"></span>
+  </header>
+  <nav class="status-filter" id="statusFilter">
+    <button type="button" data-status="all" class="active">全部</button>
+    <button type="button" data-status="production">生产</button>
+    <button type="button" data-status="test">测试</button>
+    <button type="button" data-status="dev">开发</button>
+  </nav>
+  <div id="tagCloud" class="tag-cloud" hidden></div>
+  <main id="grid" class="grid"></main>
+
+  <div id="detailModal" class="modal" hidden>
+    <div class="modal-box">
+      <div class="modal-head">
+        <h2 id="detailTitle"></h2>
+        <button type="button" id="closeDetail" class="modal-close" title="关闭">×</button>
+      </div>
+      <div id="detailBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="statsModal" class="modal" hidden>
+    <div class="modal-box">
+      <div class="modal-head">
+        <h2>数据统计</h2>
+        <button type="button" id="closeStats" class="modal-close" title="关闭">×</button>
+      </div>
+      <div id="statsBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

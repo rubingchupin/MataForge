@@ -1,0 +1,12 @@
+{
+  "name": "mataforge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MataForge - 项目元数据中心 + 本地图形化编辑器 + 静态站点生成",
+  "scripts": {
+    "start": "node server/server.mjs",
+    "build": "node scripts/build.mjs",
+    "publish": "node scripts/publish.mjs",
+    "commit": "node scripts/commit.mjs"
+  }
+}
