@@ -457,20 +457,20 @@ function renderForm(proj) {
   h.textContent = '更新日志';
   formEl.appendChild(h);
 
-  const cl = document.createElement('div');
-  cl.className = 'changelog';
-  (proj.changelog || []).forEach((c) => cl.appendChild(makeEntry(c)));
-  formEl.appendChild(cl);
-
   const addEntryBtn = document.createElement('button');
   addEntryBtn.type = 'button';
   addEntryBtn.className = 'add-entry';
   addEntryBtn.textContent = '＋ 添加一条版本日志';
   addEntryBtn.addEventListener('click', () => {
-    cl.appendChild(makeEntry({ version: '', date: '', changes: [] }));
+    cl.prepend(makeEntry({ version: '', date: '', changes: [] }));
     edit();
   });
   formEl.appendChild(addEntryBtn);
+
+  const cl = document.createElement('div');
+  cl.className = 'changelog';
+  (proj.changelog || []).forEach((c) => cl.appendChild(makeEntry(c)));
+  formEl.appendChild(cl);
 
   const footer = document.createElement('div');
   footer.className = 'footer';
