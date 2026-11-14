@@ -68,6 +68,9 @@ export function build() {
   if (existsSync(sharedDir)) {
     cpSync(sharedDir, join(outDir, 'shared'), { recursive: true });
   }
+  if (existsSync(projectsDir)) {
+    cpSync(projectsDir, join(outDir, 'projects'), { recursive: true });
+  }
   return { projectCount: projects.length, outDir };
 }
 
