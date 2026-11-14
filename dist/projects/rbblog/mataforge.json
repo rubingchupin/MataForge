@@ -1,0 +1,28 @@
+{
+  "id": "rbblog",
+  "name": "如冰的博客",
+  "icon": "shared/avatar.png",
+  "version": "1.0.0",
+  "status": "production",
+  "description": "如冰的博客，基于Hexo框架制作，深度定制，拥有精美的界面。",
+  "tags": [
+    "网页",
+    "博客",
+    "Hexo",
+    "Butterfly"
+  ],
+  "links": [
+    {
+      "label": "主页",
+      "url": "https://rubing.us.kg/"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-12",
+      "changes": [],
+      "body": "初次设定版本号"
+    }
+  ]
+}

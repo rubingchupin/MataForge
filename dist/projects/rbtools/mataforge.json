@@ -13,5 +13,12 @@
   ],
   "license": "AGPL-3.0",
   "links": [],
-  "changelog": []
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "",
+      "changes": [],
+      "body": "初次提交"
+    }
+  ]
 }

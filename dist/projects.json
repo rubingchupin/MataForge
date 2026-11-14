@@ -1,10 +1,135 @@
 {
-  "generatedAt": "2026-11-14T06:14:25.565Z",
+  "generatedAt": "2026-11-14T07:09:56.221Z",
   "site": {
     "name": "如冰项目资源",
     "url": "https://assets.rubing.us.kg/"
   },
   "projects": [
+    {
+      "id": "mata-forge",
+      "name": "MataForge",
+      "icon": "shared/avatar.png",
+      "version": "1.0.1",
+      "status": "test",
+      "description": "一个用来管理项目和资源的程序",
+      "tags": [
+        "工具"
+      ],
+      "license": "AGPL-3.0",
+      "links": [
+        {
+          "label": "仓库",
+          "url": "https://github.com/rubingchupin/MataForge/"
+        },
+        {
+          "label": "主页",
+          "url": "https://assets.rubing.us.kg/"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-11-14",
+          "changes": [],
+          "body": "添加一些新的功能"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-11-14",
+          "changes": [],
+          "body": "初次提交"
+        }
+      ],
+      "author": {
+        "name": "如冰",
+        "avatar": "shared/avatar.png",
+        "url": "https://github.com/rubingchupin",
+        "email": "rubingchupin@outlook.com",
+        "info": "时与情"
+      }
+    },
+    {
+      "id": "rb-scratch-assets",
+      "name": "如冰Scratch资源",
+      "icon": "shared/avatar.png",
+      "version": "0.3.0",
+      "status": "test",
+      "description": "一个Scratch角色资源整合平台，适用于无法访问外网的人群",
+      "links": [
+        {
+          "label": "文件",
+          "url": "https://scratch-assets.rubing.us.kg/"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "0.3.0",
+          "date": "2025-04-13",
+          "changes": [],
+          "body": "添加音频文件"
+        },
+        {
+          "version": "0.2.1",
+          "date": "2025-04-13",
+          "changes": [],
+          "body": "添加缺失的造型，删除无用文件"
+        },
+        {
+          "version": "0.2.0",
+          "date": "2025-04-12",
+          "changes": [],
+          "body": "更新更多资源"
+        },
+        {
+          "version": "0.1.0",
+          "date": "2025-04-12",
+          "changes": [],
+          "body": "托管至GitHub"
+        }
+      ],
+      "author": {
+        "name": "如冰",
+        "avatar": "shared/avatar.png",
+        "url": "https://github.com/rubingchupin",
+        "email": "rubingchupin@outlook.com",
+        "info": "时与情"
+      }
+    },
+    {
+      "id": "rbblog",
+      "name": "如冰的博客",
+      "icon": "shared/avatar.png",
+      "version": "1.0.0",
+      "status": "production",
+      "description": "如冰的博客，基于Hexo框架制作，深度定制，拥有精美的界面。",
+      "tags": [
+        "网页",
+        "博客",
+        "Hexo",
+        "Butterfly"
+      ],
+      "links": [
+        {
+          "label": "主页",
+          "url": "https://rubing.us.kg/"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-12",
+          "changes": [],
+          "body": "初次设定版本号"
+        }
+      ],
+      "author": {
+        "name": "如冰",
+        "avatar": "shared/avatar.png",
+        "url": "https://github.com/rubingchupin",
+        "email": "rubingchupin@outlook.com",
+        "info": "时与情"
+      }
+    },
     {
       "id": "rbpan",
       "name": "如冰网盘",
@@ -33,7 +158,7 @@
       "changelog": [
         {
           "version": "1.0.0",
-          "date": "",
+          "date": "2026-09-03",
           "changes": [],
           "body": "初次提交"
         }
@@ -60,6 +185,34 @@
         "dart"
       ],
       "license": "AGPL-3.0",
+      "links": [],
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "",
+          "changes": [],
+          "body": "初次提交"
+        }
+      ],
+      "author": {
+        "name": "如冰",
+        "avatar": "shared/avatar.png",
+        "url": "https://github.com/rubingchupin",
+        "email": "rubingchupin@outlook.com",
+        "info": "时与情"
+      }
+    },
+    {
+      "id": "rubing-ide",
+      "name": "如冰IDE",
+      "icon": "shared\\avatar.png",
+      "version": "1.0.0",
+      "status": "dev",
+      "description": "一个简单易用，高自定义性的Scratch编辑器",
+      "tags": [
+        "工具"
+      ],
+      "license": "GPL-3.0",
       "links": [],
       "changelog": [],
       "author": {

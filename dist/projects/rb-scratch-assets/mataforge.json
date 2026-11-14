@@ -1,0 +1,40 @@
+{
+  "id": "rb-scratch-assets",
+  "name": "如冰Scratch资源",
+  "icon": "shared/avatar.png",
+  "version": "0.3.0",
+  "status": "test",
+  "description": "一个Scratch角色资源整合平台，适用于无法访问外网的人群",
+  "links": [
+    {
+      "label": "文件",
+      "url": "https://scratch-assets.rubing.us.kg/"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.3.0",
+      "date": "2025-04-13",
+      "changes": [],
+      "body": "添加音频文件"
+    },
+    {
+      "version": "0.2.1",
+      "date": "2025-04-13",
+      "changes": [],
+      "body": "添加缺失的造型，删除无用文件"
+    },
+    {
+      "version": "0.2.0",
+      "date": "2025-04-12",
+      "changes": [],
+      "body": "更新更多资源"
+    },
+    {
+      "version": "0.1.0",
+      "date": "2025-04-12",
+      "changes": [],
+      "body": "托管至GitHub"
+    }
+  ]
+}
