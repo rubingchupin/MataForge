@@ -1,0 +1,14 @@
+{
+  "id": "rubing-ide",
+  "name": "如冰IDE",
+  "icon": "shared\\avatar.png",
+  "version": "1.0.0",
+  "status": "dev",
+  "description": "一个简单易用，高自定义性的Scratch编辑器",
+  "tags": [
+    "工具"
+  ],
+  "license": "GPL-3.0",
+  "links": [],
+  "changelog": []
+}

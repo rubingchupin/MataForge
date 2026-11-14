@@ -1,0 +1,36 @@
+{
+  "id": "mata-forge",
+  "name": "MataForge",
+  "icon": "shared/avatar.png",
+  "version": "1.0.1",
+  "status": "test",
+  "description": "一个用来管理项目和资源的程序",
+  "tags": [
+    "工具"
+  ],
+  "license": "AGPL-3.0",
+  "links": [
+    {
+      "label": "仓库",
+      "url": "https://github.com/rubingchupin/MataForge/"
+    },
+    {
+      "label": "主页",
+      "url": "https://assets.rubing.us.kg/"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.1",
+      "date": "2026-11-14",
+      "changes": [],
+      "body": "添加一些新的功能"
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-14",
+      "changes": [],
+      "body": "初次提交"
+    }
+  ]
+}
