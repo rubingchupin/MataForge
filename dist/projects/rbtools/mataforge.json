@@ -1,0 +1,17 @@
+{
+  "id": "rbtools",
+  "name": "如冰工具箱",
+  "icon": "shared/avatar.png",
+  "version": "1.0.0",
+  "status": "dev",
+  "description": "一个跨平台轻量级工具箱，支持与其他同开发者作品联动。",
+  "tags": [
+    "工具",
+    "应用",
+    "Flutter",
+    "dart"
+  ],
+  "license": "AGPL-3.0",
+  "links": [],
+  "changelog": []
+}

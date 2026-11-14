@@ -1,0 +1,34 @@
+{
+  "id": "rbpan",
+  "name": "如冰网盘",
+  "icon": "shared/avatar.png",
+  "version": "1.0.0",
+  "status": "production",
+  "description": "一个基于Node.js的前端网盘项目，无需后端，仅需要前端部署即可使用。",
+  "tags": [
+    "网盘",
+    "前端",
+    "Vue",
+    "Stylus",
+    "Pug"
+  ],
+  "license": "AGPL-3.0",
+  "links": [
+    {
+      "label": "主页",
+      "url": "https://pan.rubing.us.kg/"
+    },
+    {
+      "label": "仓库",
+      "url": "https://github.com/rubingchupin/rbpan/"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "",
+      "changes": [],
+      "body": "初次提交"
+    }
+  ]
+}
